@@ -48,8 +48,8 @@ logger = logging.getLogger(__name__)
 class Config:
     """تنظیمات ربات از متغیرهای محیطی"""
     
-    BOT_TOKEN = os.getenv('BOT_TOKEN', '')
-    OWNER_ID = int(os.getenv('OWNER_ID', '0'))
+    BOT_TOKEN = os.getenv("8810741889:AAEjL5vlgL0mxZeAmRGWtDuU7kKFCKwJQ2M", '')
+    OWNER_ID = int(os.getenv("8680457924" , '0'))
     LOG_CHANNEL_ID = int(os.getenv('LOG_CHANNEL_ID', '0'))
     
     # حالت شب
@@ -57,8 +57,8 @@ class Config:
     NIGHT_MODE_END = int(os.getenv('NIGHT_MODE_END', '6'))
     
     # ادمین‌ها و مدیران
-    ADMIN_IDS = [int(id.strip()) for id in os.getenv('ADMIN_IDS', '').split(',') if id.strip()]
-    MODERATOR_IDS = [int(id.strip()) for id in os.getenv('MODERATOR_IDS', '').split(',') if id.strip()]
+    ADMIN_IDS = [int(id.strip()) for id in os.getenv("8680457924", '').split(',') if id.strip()]
+    MODERATOR_IDS = [int(id.strip()) for id in os.getenv("8680457924", '').split(',') if id.strip()]
     
     # تنظیمات اسپم
     SPAM_SIMILAR_COUNT = 5
